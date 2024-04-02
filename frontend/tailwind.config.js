@@ -1,5 +1,3 @@
-import viteReact from '@vitejs/plugin-react';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,5 +7,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui"), viteReact],
-};
+  plugins: [require("daisyui")],
+}
