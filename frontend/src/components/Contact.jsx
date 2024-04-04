@@ -14,7 +14,7 @@ function Contact() {
     <>
        <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-16'>
        <div className='  w-full md:w-1/2'><img src={contact} className=' h-70 rounded-xl' alt=''/></div>
-       <div className=' h-100   flex items-center justify-center ml-5 '>
+       <div className='  flex items-center justify-center ml-5 '>
                 <div  className=" w-[300px]">
                     <div className="mt-4">
                     <form onSubmit={handleSubmit(onSubmit)} method="dialog">
