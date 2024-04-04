@@ -16,7 +16,7 @@ function Contact() {
        <div className='  w-full md:w-1/2'><img src={contact} className=' h-70 rounded-xl' alt=''/></div>
        <div className=' h-100   flex items-center justify-center  '>
                 <div  className=" w-[300px]">
-                    <div className="mt-5">
+                    <div className="mt-4">
                     <form onSubmit={handleSubmit(onSubmit)} method="dialog">
                         
                         <h3 className="font-bold text-lg items-center ">CONTACT US</h3>
